@@ -5,7 +5,7 @@ class Rover {
         this.generatorWatts = generatorWatts;
       }
    
-    // receiveMessage(message) {
+    receiveMessage(message) {
        let response = {
          message: message.name,
          results: []
